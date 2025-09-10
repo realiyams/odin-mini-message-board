@@ -12,7 +12,7 @@ A simple message board built with **Express.js**, **EJS**, and **PostgreSQL**.
 
 ### 1. Clone this repository
 ```bash
-git clone <repo-url>
+git clone [<repo-url>](https://github.com/realiyams/odin-mini-message-board.git)
 cd my-messageboard
 ```
 
