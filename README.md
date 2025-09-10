@@ -10,27 +10,39 @@ A simple message board built with **Express.js**, **EJS**, and **PostgreSQL**.
 
 ## 🛠️ Setup Instructions
 
-1. Clone this repository  
-   git clone <repo-url>  
-   cd my-messageboard  
+### 1. Clone this repository
+```bash
+git clone <repo-url>
+cd my-messageboard
+```
 
-2. Install dependencies  
-   npm install  
+### 2. Install dependencies
+```bash
+npm install
+```
 
-3. Configure PostgreSQL in `db.js`  
-   const pool = new Pool({  
-     user: "postgres",  
-     host: "localhost",  
-     database: "messageboard",  
-     password: "postgres", // change to your password  
-     port: 5432,  
-   });  
+### 3. Configure PostgreSQL in `db.js`
+```js
+const pool = new Pool({
+  user: "postgres",
+  host: "localhost",
+  database: "messageboard",
+  password: "postgres", // change to your password
+  port: 5432,
+});
+```
 
-4. Initialize the database  
-   node initdb.js  
+### 4. Initialize the database
+```bash
+node initdb.js
+```
 
-5. Start the server  
-   node app.js  
+### 5. Start the server
+```bash
+node app.js
+```
 
-6. Open in browser  
-   http://localhost:3000
+### 6. Open in browser
+```text
+http://localhost:3000
+```
