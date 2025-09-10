@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>
+    <%= title %>
+  </title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <div class="message-card">
+    <h2>Message Detail</h2>
+
+    <p><strong>User:</strong>
+      <%= message.username %>
+    </p>
+    <p><strong>Message:</strong>
+      <%= message.text %>
+    </p>
+
+    <p class="date"><em>Added on: <%= new Date(message.added).toLocaleString() %></em></p>
+
+    <a href="/">← Back to home</a>
+  </div>
+
+</body>
+
+</html>
